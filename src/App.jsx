@@ -1,21 +1,16 @@
 import "./App.css";
-import HomePage from "./pages/HomePage";
-import Footer from "./components/Footer.jsx"; 
-import FooterWhite from "./components/Footer_white.jsx";
+
+// Sesuaikan path impor dengan struktur folder Anda
+import Navbar from "./components/layout/Navbar.jsx";      // Path ini sudah benar
+import ContactPage from "./pages/ContactPage.jsx";   // 👈 PERBAIKAN DI SINI
+import Footer from "./components/Footer.jsx";      // Path ini sudah benar
 
 function App() {
   return (
-    <div className="m-0 p-0">
-      <HomePage />
-      
-      {/* Konten halaman lainnya bisa di sini */}
-
-      {/* Menampilkan footer gelap */}
+    <div>
+      <Navbar />
+      <ContactPage />
       <Footer />
-
-      {/* Menampilkan footer putih */}
-      <FooterWhite />
-
     </div>
   );
 }
