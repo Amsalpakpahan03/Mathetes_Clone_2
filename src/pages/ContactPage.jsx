@@ -18,7 +18,7 @@ const ContactPage = () => {
     const phone = formData.get("phone");
     const message = formData.get("message");
 
-    const mailtoLink = `mailto:garda.sw@gmail.com?subject=Contact%20from%20${encodeURIComponent(
+    const mailtoLink = `mailto:mail.mathetes@gmail.com?subject=Contact%20from%20${encodeURIComponent(
       name
     )}&body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
