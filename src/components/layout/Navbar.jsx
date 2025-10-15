@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="/images/logo.png"
+            src="/public/images/logo.png"
             alt="Mathetes Christian School Logo"
             className="h-16 w-16 mr-4"
           />
