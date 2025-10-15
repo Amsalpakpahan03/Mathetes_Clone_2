@@ -1,17 +1,24 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Link, useNavigate } from "react-router-dom";
 
 const navItems = [
-  { name: "HOME", href: "#home" },
-  { name: "ABOUT US", href: "#about" },
+  { name: "HOME", href: "/" },
+  { name: "ABOUT US", href: "/contactus" },
   { name: "COURSES", href: "#courses" },
 ];
 
 const Navbar = () => {
   const [isBuka, setIsBuka] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsBuka(!isBuka);
+  };
+
+  const handleMobileNav = (path) => {
+    navigate(path);
+    toggleMenu();
   };
 
   return (
@@ -52,6 +59,7 @@ const Navbar = () => {
           ))}
 
           <motion.button
+            onClick={() => navigate("/contact")}
             initial={{ opacity: 0, y: -25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -137,7 +145,8 @@ const Navbar = () => {
           </nav>
           <div className="pt-4 border-t border-slate-600">
             <button
-              onClick={toggleMenu}
+              onClick={() => handleMobileNav("/contact")}
+              // onClick={toggleMenu}
               className="mb-5 block w-full px-4 py-3 rounded-lg bg-slate-900 hover:bg-slate-700 font-bold"
             >
               CONTACT US
