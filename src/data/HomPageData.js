@@ -2,9 +2,6 @@ import Background1 from "../assets/Img/Background1.png";
 import Background2 from "../assets/Img/Background2.png";
 import Background3 from "../assets/Img/Background3.png";
 
-// Foto About US
-import AbutUs from "";
-
 export const heroData = [
   {
     id: 1,
