@@ -9,9 +9,9 @@ import AboutGallery from "../components/About/AboutGallery";
 import { successFocusData, visionData } from "../data/AboutData";
 import { missionData } from "../data/MissionData";
 
-const AboutPage = () => {
+const AboutPage = () => {  
   return (
-    <main className="lg:pt-20"> {/* Padding agar tidak tertutup Navbar */}
+    <main className="lg:pt-21"> {/* Padding agar tidak tertutup Navbar */}
 
       {/* HERO SECTION */}
       <section 
