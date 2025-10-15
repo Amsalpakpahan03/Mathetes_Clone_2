@@ -7,6 +7,7 @@ import MissionSection from "../components/About/MissionSection";
 import AboutGallery from "../components/About/AboutGallery";
 
 import { successFocusData, visionData } from "../data/AboutData";
+
 import { missionData } from "../data/MissionData";
 
 const AboutPage = () => {  
