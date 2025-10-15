@@ -15,9 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    // Mengubah <div> menjadi <nav> sebagai elemen utama
-    <nav className="w-full bg-slate-700 text-white border-b-4 border-red-700">
-      <div className="container mx-auto px-6 py-3 flex justify-between items-center">
+    <nav className="z-999 w-full bg-slate-700 text-white md:fixed top-0 left-0 shadow-ml">
+      <div className="  container mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
           <img
@@ -51,7 +50,7 @@ const Navbar = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 group-hover:w-full transition-all duration-300"></span>
             </motion.a>
           ))}
-          {/* Tombol CONTACT US desktop dipindahkan ke sini agar ikut tersembunyi di mobile */}
+
           <motion.button
             initial={{ opacity: 0, y: -25 }}
             animate={{ opacity: 1, y: 0 }}
@@ -79,11 +78,9 @@ const Navbar = () => {
           </motion.button>
         </div>
 
-        {/* DITAMBAHKAN: Tombol Hamburger yang hanya muncul di mobile */}
         <div className="md:hidden">
           <button onClick={toggleMenu} aria-label="Toggle Menu">
             {isBuka ? (
-              // Ikon 'X' (tutup)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-8 w-8"
@@ -99,7 +96,6 @@ const Navbar = () => {
                 />
               </svg>
             ) : (
-              // Ikon Hamburger
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-8 w-8"
@@ -119,7 +115,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Menu Dropdown Mobile (Tidak diubah) */}
+      {/*  Dropdown Mobile */}
       <motion.div
         initial={{ opacity: 0, height: 0 }}
         animate={{ opacity: isBuka ? 1 : 0, height: isBuka ? "auto" : 0 }}
