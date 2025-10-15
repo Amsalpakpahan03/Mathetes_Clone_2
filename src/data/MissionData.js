@@ -42,4 +42,10 @@ export const missionData = [
     description:
       "Work to push creativity, driving continual improvement and growth.",
   },
+  {
+    id: 8,
+    title: "Innovation",
+    description:
+      "Work to push creativity, driving continual improvement and growth.",
+  },
 ];
