@@ -11,12 +11,14 @@ import {
   aboutSectionData,
   SchoolProgramData,
   featuresData,
+  heroDataCourse,
+  heroDataHome,
 } from "../data/Data";
 
 const HomePage = () => {
   return (
     <div>
-      <HeroSlider data={HeaderHome} />
+      <HeroSlider data={heroDataHome} />
       <div className="relative top-[-80px] z-100 items-center flex justify-center">
         <FeaturesSection data={featuresData} />
       </div>

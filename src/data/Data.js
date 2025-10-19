@@ -40,13 +40,10 @@ export const aboutSectionData = {
     "problems trying to resolve the conflict between the two major realms of classical physics:",
     "newtonian mechanics",
   ],
-  link: {
-    text: "Learn More",
-    href: "/about-us",
-  },
+  link: "",
   image: {
     slug: "about-section-image",
-    alt: "Tim kami sedang berdiskusi mengenai proyek klien",
+    alt: "Loading",
   },
 };
 
@@ -121,3 +118,118 @@ export const AboutusBackgropund = [
     },
   },
 ];
+
+export const heroDataCourse = [
+  {
+    id: 1,
+    subtitle: "Join Our Community",
+    title: "HIGH QUALITY COURSES",
+    description:
+      "Our Goal Is To Make Online Education Work For Everyone, Fostering a Bright Future.",
+    buttonText: "View Courses",
+    image: {
+      slug: "about-section-image",
+      alt: "Suasana belajar online yang interaktif dan modern",
+    },
+  },
+  {
+    id: 2,
+    subtitle: "Prepare For The Future",
+    title: "INNOVATIVE SCIENCE & TECH",
+    description:
+      "Explore cutting-edge programs in robotics, coding, and digital arts.",
+    buttonText: "Explore Programs",
+    image: {
+      slug: "Background2",
+      alt: "Seorang siswa berinteraksi dengan robot canggih",
+    },
+  },
+  {
+    id: 3,
+    subtitle: "Excellence in Education",
+    title: "A LEGACY OF ACHIEVEMENT",
+    description:
+      "Nurturing talented students to become leaders and innovators in their fields.",
+    buttonText: "Learn Our Story",
+    image: {
+      slug: "Background3",
+      alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
+    },
+  },
+];
+
+export const heroDataHome = [
+  {
+    id: 1,
+    subtitle: "Join Our Community",
+    title: "HIGH QUALITY COURSES",
+    description:
+      "Our Goal Is To Make Online Education Work For Everyone, Fostering a Bright Future.",
+    buttonText: "View Courses",
+    image: {
+      slug: "about-section-image",
+      alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
+    },
+  },
+  {
+    id: 2,
+    subtitle: "Prepare For The Future",
+    title: "INNOVATIVE SCIENCE & TECH",
+    description:
+      "Explore cutting-edge programs in robotics, coding, and digital arts.",
+    buttonText: "Explore Programs",
+    image: {
+      slug: "Background2",
+      alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
+    },
+  },
+  {
+    id: 3,
+    subtitle: "Excellence in Education",
+    title: "A LEGACY OF ACHIEVEMENT",
+    description:
+      "Nurturing talented students to become leaders and innovators in their fields.",
+    buttonText: "Learn Our Story",
+    image: {
+      slug: "Background3",
+      alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
+    },
+  },
+];
+
+export const courseOurCurriculum = {
+  title: "Every Client Matters",
+  descriptions: [
+    "problems trying to resolve the conflict between the two major realms of classical physics:",
+    "newtonian mechanics",
+  ],
+  link: "",
+  image: {
+    slug: "about-section-image",
+    alt: "Loading",
+  },
+};
+
+export const curriculumSectionData = {
+  title: "What Is A.C.E?",
+  description:
+    "problems trying to resolve the conflict between the two major realms of classical physics: newtonian mechanics",
+  images: [
+    {
+      slug: "about-section-image",
+      alt: "Siswa sedang belajar di laboratorium komputer sekolah",
+    },
+    {
+      slug: "curriculum-award-ceremony",
+      alt: "On Progress",
+    },
+  ],
+};
+
+export const schoolProgramHeaderData = {
+  title: "School Program",
+  image: {
+    slug: "about-section-image",
+    alt: "Siswa-siswi sedang belajar dengan serius di laboratorium komputer.",
+  },
+};

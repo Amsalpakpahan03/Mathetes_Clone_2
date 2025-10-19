@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import HeroSlide from "./HeroSlide"; // <-- Path impor sudah benar sesuai struktur baru
+import HeroSlide from "./HeroSlide";
 
 const HeroSlider = ({ data }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
