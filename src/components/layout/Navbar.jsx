@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 const navItems = [
   { name: "HOME", href: "/" },
   { name: "ABOUT US", href: "/aboutus" },
-  { name: "COURSES", href: "#courses" },
+  { name: "COURSES", href: "/course" },
 ];
 
 const Navbar = () => {
