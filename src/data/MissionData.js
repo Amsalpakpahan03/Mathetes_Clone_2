@@ -2,50 +2,30 @@
 export const missionData = [
   {
     id: 1,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
+    text: "Live Transformed in Wisdom and Truth.",
   },
   {
     id: 2,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
+    text: "Walk in Emotional Intelligence and Spirit-filled Living.",
   },
   {
     id: 3,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
+    text: "Lead with Strong Communication and Leadership.",
   },
   {
     id: 4,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
+    text: "Think Creatively and Critically to Solve Real Problems.",
   },
   {
     id: 5,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
+    text: "Pursue Passions, Talents, and Unique Strengths.",
   },
   {
     id: 6,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
+    text: "Live a Holistic Life of Mind, Body, and Spirit.",
   },
   {
     id: 7,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
-  },
-  {
-    id: 8,
-    title: "Innovation",
-    description:
-      "Work to push creativity, driving continual improvement and growth.",
+    text: "Impact the World by Sharing the Gospel with Love and Hope.",
   },
 ];
