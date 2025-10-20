@@ -2,7 +2,14 @@ import Background1 from "../assets/Img/Background1.png";
 import Background2 from "../assets/Img/Background2.png";
 import Background3 from "../assets/Img/Background3.png";
 
-import { FaBookOpen, FaUserTie, FaGraduationCap } from "react-icons/fa";
+import {
+  FaBookOpen,
+  FaUserTie,
+  FaGraduationCap,
+  FaLaptopCode,
+  FaPaintBrush,
+  FaMusic,
+} from "react-icons/fa";
 
 export const HeaderHome = [
   {
@@ -80,7 +87,7 @@ export const SchoolProgramData = [
     title: "Primary",
     description:
       "As students transition into Junior School, the focus shifts to developing critical thinking and independent study skills. To promote a well rounded education, students work on one PACE from each core subject daily",
-    icon: "",
+    icon: FaBookOpen,
     image: {
       slug: "about-section-image",
       alt: "Tim kami sedang berdiskusi mengenai proyek klien",
@@ -233,3 +240,39 @@ export const schoolProgramHeaderData = {
     alt: "Siswa-siswi sedang belajar dengan serius di laboratorium komputer.",
   },
 };
+
+export const extraClassData = [
+  {
+    id: 1,
+    title: "Coding Class",
+    description:
+      "Students learn the fundamentals of programming and web development, building critical thinking and problem-solving skills for the future digital landscape. This class fosters creativity through technology.",
+    icon: FaLaptopCode,
+    image: {
+      slug: "about-section-image",
+      alt: "Siswa sedang belajar coding di depan komputer",
+    },
+  },
+  {
+    id: 2,
+    title: "Art & Design",
+    description:
+      "In this class, students explore various art forms, from traditional drawing to digital design. It's a space to nurture creativity, express ideas visually, and understand the principles of aesthetics.",
+    icon: FaPaintBrush,
+    image: {
+      slug: "extraclass-art", // Siapkan gambar dengan nama dasar ini
+      alt: "Seorang siswi sedang melukis di atas kanvas",
+    },
+  },
+  {
+    id: 3,
+    title: "Music Workshop",
+    description:
+      "Our music workshop helps students discover their musical talents. They learn to play instruments, understand music theory, and collaborate in ensembles, building teamwork and discipline.",
+    icon: FaMusic,
+    image: {
+      slug: "extraclass-music",
+      alt: "Beberapa siswa sedang bermain alat musik bersama",
+    },
+  },
+];
