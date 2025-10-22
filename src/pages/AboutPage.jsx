@@ -6,10 +6,11 @@ import AboutVision from "../components/About/AboutVision";
 import MissionSection from "../components/About/MissionSection";
 import AboutGallery from "../components/About/AboutGallery";
 import LearningModelSection from "../components/About/LearningModelSection";
+import StaffSection from "../components/ui/StaffSection"; // Impor sudah benar
 
 import { successFocusData, visionData } from "../data/AboutData";
-
 import { missionData } from "../data/MissionData";
+// Impor staffData tidak diperlukan di sini, karena StaffSection sudah mengimpornya sendiri
 
 const AboutPage = () => {
   return (
@@ -41,6 +42,8 @@ const AboutPage = () => {
       <section className="bg-white">
         <LearningModelSection />
       </section>
+      {/* PERBAIKAN: Komentar dihapus agar komponen tampil */}
+      <StaffSection />
     </main>
   );
 };
