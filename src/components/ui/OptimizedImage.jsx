@@ -38,6 +38,7 @@ const OptimizedImage = ({ slug, alt, className }) => {
         decoding="async"
       />
     </picture>
+    
   );
 };
 
