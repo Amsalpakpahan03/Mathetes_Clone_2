@@ -9,45 +9,49 @@ import {
   FaLaptopCode,
   FaPaintBrush,
   FaMusic,
+  FaSwimmer,
+  FaBullhorn,
 } from "react-icons/fa";
+import { FaTableTennisPaddleBall } from "react-icons/fa6";
 
 export const HeaderHome = [
   {
     id: 1,
-    subtitle: "Join Our Community",
-    title: "HIGH QUALITY COURSES",
+    subtitle: "National Accredited",
+    title: "National Accredited",
     description:
-      "Our Goal Is To Make Online Education Work For Everyone, Fostering a Bright Future.",
-    buttonText: "View Courses",
+      "Officially recognized by the Ministry of Education for our commitment to high-quality standards and academic excellence.",
+    buttonText: "About Us",
     imageUrl: Background1,
   },
   {
     id: 2,
-    subtitle: "Prepare For The Future",
-    title: "INNOVATIVE SCIENCE & TECH",
+    subtitle: "Biblical-Based Education",
+    title: "Biblical-Based Education",
     description:
-      "Explore cutting-edge programs in robotics, coding, and digital arts.",
+      "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
     buttonText: "Explore Programs",
     imageUrl: Background2,
   },
   {
     id: 3,
-    subtitle: "Excellence in Education",
-    title: "A LEGACY OF ACHIEVEMENT",
+    subtitle: "International Standard Curriculum",
+    title: "International Standard Curriculum",
     description:
-      "Nurturing talented students to become leaders and innovators in their fields.",
-    buttonText: "Learn Our Story",
+      "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
+    buttonText: "enroll Now",
     imageUrl: Background3,
   },
 ];
 
 export const aboutSectionData = {
-  title: "Every Client Matters",
+  title: "MATHETES Christian School",
   descriptions: [
     "problems trying to resolve the conflict between the two major realms of classical physics:",
     "newtonian mechanics",
   ],
-  link: "",
+  buttom: "contact",
+  link: "/contact",
   image: {
     slug: "about-section-image",
     alt: "Loading",
@@ -57,25 +61,25 @@ export const aboutSectionData = {
 export const featuresData = [
   {
     id: 1,
-    title: "Lifetime Access ",
+    title: "Individualized Education",
     description:
-      "The gradual accumulation of information about atomic and small-scale behaviour...",
+      "Biblically based educational program geared to meet the learning needs of individual children.",
     icon: FaBookOpen,
     image: null,
   },
   {
     id: 2,
-    title: "Expert Instructors",
+    title: "Family Oriented",
     description:
-      "Learn from the best in the field with years of experience and passion for teaching.",
+      "We believe that a successful education of a child begins with the parent.",
     icon: FaUserTie,
     image: null,
   },
   {
     id: 3,
-    title: "Flexible Schedule",
+    title: "Academic Achievement",
     description:
-      "Study at your own pace with online schedules designed to fit your busy life.",
+      "The A.C.E. program is designed around a new format: that of building skill upon skill.",
     icon: FaGraduationCap,
     image: null,
   },
@@ -86,10 +90,10 @@ export const SchoolProgramData = [
     id: 1,
     title: "Primary",
     description:
-      "As students transition into Junior School, the focus shifts to developing critical thinking and independent study skills. To promote a well rounded education, students work on one PACE from each core subject daily",
+      "A nurturing start to a world-class journey. Our Primary program combines an accredited, international-standard curriculum with foundational biblical values to build academic excellence and strong character from day one.",
     icon: FaBookOpen,
     image: {
-      slug: "about-section-image",
+      slug: "Primary",
       alt: "Tim kami sedang berdiskusi mengenai proyek klien",
     },
   },
@@ -97,22 +101,22 @@ export const SchoolProgramData = [
     id: 2,
     title: "Junior",
     description:
-      "As students transition into Junior School, the focus shifts to developing critical thinking and independent study skills. To promote a well rounded education, students work on one PACE from each core subject daily",
+      "Developing critical thinkers and future leaders. This program challenges students with rigorous international academics within a nationally accredited framework, all grounded in biblical wisdom to guide them through their formative years.",
     icon: FaUserTie,
     image: {
-      slug: "about-section-image",
-      alt: "Tim kami sedang berdiskusi mengenai proyek klien",
+      slug: "Junior",
+      alt: "Terjadi kesalahan Jaringan",
     },
   },
   {
     id: 3,
     title: "High School",
     description:
-      "As students transition into Junior School, the focus shifts to developing critical thinking and independent study skills. To promote a well rounded education, students work on one PACE from each core subject daily",
+      "Equipping students for global impact and university success. Our High School delivers an internationally recognized, accredited education that sharpens minds while biblical principles shape their integrity, preparing them to thrive anywhere in the world.",
     icon: FaGraduationCap,
     image: {
-      slug: "about-section-image",
-      alt: "Tim kami sedang berdiskusi mengenai proyek klien",
+      slug: "High-School",
+      alt: "Terjadi kesalahan Jaringan",
     },
   },
 ];
@@ -168,38 +172,38 @@ export const heroDataCourse = [
 export const heroDataHome = [
   {
     id: 1,
-    subtitle: "Join Our Community",
-    title: "HIGH QUALITY COURSES",
+    subtitle: "National Accredited",
+    title: "NATIONAL ACCREDITED",
     description:
-      "Our Goal Is To Make Online Education Work For Everyone, Fostering a Bright Future.",
-    buttonText: "View Courses",
+      "Officially recognized by the Ministry of Education for our commitment to high-quality standards and academic excellence.",
+    buttonText: "About Us",
     image: {
-      slug: "about-section-image",
-      alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
+      slug: "Mathetes-student",
+      alt: "NATIONAL ACCREDITED",
     },
   },
   {
     id: 2,
-    subtitle: "Prepare For The Future",
-    title: "INNOVATIVE SCIENCE & TECH",
+    subtitle: "Biblical-Based Education",
+    title: "BIBLICAL-BASED EDUCATION",
     description:
-      "Explore cutting-edge programs in robotics, coding, and digital arts.",
+      "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
     buttonText: "Explore Programs",
     image: {
       slug: "Background2",
-      alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
+      alt: "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
     },
   },
   {
     id: 3,
-    subtitle: "Excellence in Education",
-    title: "A LEGACY OF ACHIEVEMENT",
+    subtitle: "International Standard Curriculum",
+    title: "INTERNATIONAL STANDARD CURRICULUM",
     description:
-      "Nurturing talented students to become leaders and innovators in their fields.",
+      "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
     buttonText: "Learn Our Story",
     image: {
       slug: "Background3",
-      alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
+      alt: "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
     },
   },
 ];
@@ -220,7 +224,7 @@ export const courseOurCurriculum = {
 export const curriculumSectionData = {
   title: "What Is A.C.E?",
   description:
-    "problems trying to resolve the conflict between the two major realms of classical physics: newtonian mechanics",
+    "For 55 years, The A.C.E (Accelerated Christian Education®) also known as the School of Tomorrow has been a trendsetter in Biblical educational reform for 55 years and used by over 24.000 schools in over 142 countries on seven continents globally. Its philosophy is built on basic principles of the Word of God. In South Pasific Region, A.C.E. is well promoted and facilitated by Southern Cross Educational Enterprises (www.scee.edu.au). Students are taught to see life from God’s point of view, to take responsibility for their own learning, and to walk in Godly wisdom and character.",
   images: [
     {
       slug: "about-section-image",
@@ -244,10 +248,10 @@ export const schoolProgramHeaderData = {
 export const extraClassData = [
   {
     id: 1,
-    title: "Coding Class",
+    title: " Swimming",
     description:
-      "Students learn the fundamentals of programming and web development, building critical thinking and problem-solving skills for the future digital landscape. This class fosters creativity through technology.",
-    icon: FaLaptopCode,
+      "Dive into discipline and health. Our swimming club builds strong athletic skills, promotes a healthy lifestyle, and develops personal perseverance in a supportive, professional environment.",
+    icon: FaSwimmer,
     image: {
       slug: "about-section-image",
       alt: "Siswa sedang belajar coding di depan komputer",
@@ -255,10 +259,10 @@ export const extraClassData = [
   },
   {
     id: 2,
-    title: "Art & Design",
+    title: "Table Tenis",
     description:
-      "In this class, students explore various art forms, from traditional drawing to digital design. It's a space to nurture creativity, express ideas visually, and understand the principles of aesthetics.",
-    icon: FaPaintBrush,
+      "Sharpen your reflexes and strategic mind. Our table tennis club is the perfect place to develop agility, precision, and quick thinking while fostering healthy competition and sportsmanship.",
+    icon: FaTableTennisPaddleBall,
     image: {
       slug: "extraclass-art", // Siapkan gambar dengan nama dasar ini
       alt: "Seorang siswi sedang melukis di atas kanvas",
@@ -266,9 +270,20 @@ export const extraClassData = [
   },
   {
     id: 3,
-    title: "Music Workshop",
+    title: "Digital Marketing",
     description:
-      "Our music workshop helps students discover their musical talents. They learn to play instruments, understand music theory, and collaborate in ensembles, building teamwork and discipline.",
+      "Master the skills of the future. In this club, students learn to create engaging content, understand social media analytics, and build effective online strategies in a hands-on, collaborative setting.",
+    icon: FaBullhorn,
+    image: {
+      slug: "extraclass-music",
+      alt: "Beberapa siswa sedang bermain alat musik bersama",
+    },
+  },
+  {
+    id: 4,
+    title: "⁠Ensemble Band",
+    description:
+      "Creating harmony, together. The ensemble band fosters musical talent, discipline, and the joy of collaboration. Students unite to perform, express their creativity, and grow as musicians.",
     icon: FaMusic,
     image: {
       slug: "extraclass-music",

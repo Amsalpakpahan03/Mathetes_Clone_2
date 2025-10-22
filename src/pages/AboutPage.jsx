@@ -15,8 +15,6 @@ const AboutPage = () => {
   return (
     <main className="lg:pt-21">
       {" "}
-      {/* Padding agar tidak tertutup Navbar */}
-      {/* HERO SECTION */}
       <section
         className="relative bg-cover bg-center bg pb-16"
         style={{
@@ -28,15 +26,11 @@ const AboutPage = () => {
           <AboutHero data={successFocusData} />
         </div>
       </section>
-      {/* GALERI JEMBATAN */}
-      {/* PERBAIKAN: Tambahkan 'hidden md:block' untuk menyembunyikan di mobile */}
       <div className="relative z-20 -mt-16 hidden md:block">
         <AboutGallery images={successFocusData.galleryImages} />
       </div>
-      {/* VISION SECTION - Background Putih */}
-      {/* PERBAIKAN: Sesuaikan margin agar tidak ada ruang kosong besar di mobile */}
       <section className="bg-white">
-        <div className="relative z-10 md:-mt-16">
+        <div className="relative z-10 md:mt-15">
           <AboutVision data={visionData} />
         </div>
       </section>

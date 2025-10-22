@@ -47,7 +47,7 @@ const AboutHome = ({ data }) => {
               <OptimizedImage
                 slug={data.image.slug}
                 alt={data.image.alt}
-                className="w-auto h-full object-cover" // Style agar gambar mengisi container
+                className="w-auto h-full object-cover"
               />
             </div>
           </div>

@@ -29,7 +29,8 @@ const Footer = () => {
         {/* Bagian Atas */}
         <div className="mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6 leading-snug max-w-3xl">
-            Get in Touch with Us for <br className="hidden sm:block" /> Your Path to Success
+            Get in Touch with Us for <br className="hidden sm:block" /> Your
+            Path to Success
           </h2>
 
           {/* Navigasi */}

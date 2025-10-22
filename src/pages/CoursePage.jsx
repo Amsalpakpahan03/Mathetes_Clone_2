@@ -27,11 +27,11 @@ const CoursePage = () => {
       <div className="P-10 m-8 md:m-20">
         <FeaturesSection data={SchoolProgramData} />
       </div>
-      <PageHeaderCourse data={schoolProgramHeaderData} />
+      {/* <PageHeaderCourse data={schoolProgramHeaderData} /> */}
       <div className="text-center max-w-2xl mx-auto pt-9">
         <div className="w-16 h-1 bg-red-600 mb-4 mx-auto"></div>
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
-          Extra Class
+          Extracurricular
         </h2>
       </div>
       <InteractiveSlider data={extraClassData} />

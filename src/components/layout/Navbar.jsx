@@ -22,12 +22,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-999 w-full bg-slate-700 text-white md:fixed top-0 left-0 shadow-ml">
+    <nav className="z-999 w-full bg-[#243665] text-white md:fixed top-0 left-0 shadow-ml">
       <div className="  container mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="/public/images/logo.png"
+            src="/images/logo.png"
             alt="Mathetes Christian School Logo"
             className="h-16 w-16 mr-4"
           />
@@ -51,10 +51,10 @@ const Navbar = () => {
                 duration: 0.5,
                 delay: 0.2 + index * 0.1,
               }}
-              className="relative font-semibold hover:text-red-700 transition-colors duration-300 group"
+              className="relative font-semibold hover:text-orange-500 transition-colors duration-300 group"
             >
               {item.name}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
             </motion.a>
           ))}
 
@@ -66,7 +66,7 @@ const Navbar = () => {
               duration: 0.5,
               delay: 0.6,
             }}
-            className="bg-slate-900 hover:bg-slate-800 text-white hover:text-red-700 font-bold py-3 px-6 rounded-md flex items-center transition-colors duration-300"
+            className="bg-slate-900 hover:bg-slate-500 text-white hover:text-orange-500 font-bold py-3 px-6 rounded-md flex items-center transition-colors duration-300"
           >
             <span>CONTACT US</span>
             <svg
