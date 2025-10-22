@@ -6,10 +6,11 @@ import AboutVision from "../components/About/AboutVision";
 import MissionSection from "../components/About/MissionSection";
 import AboutGallery from "../components/About/AboutGallery";
 import LearningModelSection from "../components/About/LearningModelSection";
+import StaffSection from "../components/ui/StaffSection"; // Impor sudah benar
 
 import { successFocusData, visionData } from "../data/AboutData";
-
 import { missionData } from "../data/MissionData";
+// Impor staffData tidak diperlukan di sini, karena StaffSection sudah mengimpornya sendiri
 
 const AboutPage = () => {
   return (
@@ -29,12 +30,10 @@ const AboutPage = () => {
         </div>
       </section>
       {/* GALERI JEMBATAN */}
-      {/* PERBAIKAN: Tambahkan 'hidden md:block' untuk menyembunyikan di mobile */}
       <div className="relative z-20 -mt-16 hidden md:block">
         <AboutGallery images={successFocusData.galleryImages} />
       </div>
       {/* VISION SECTION - Background Putih */}
-      {/* PERBAIKAN: Sesuaikan margin agar tidak ada ruang kosong besar di mobile */}
       <section className="bg-white">
         <div className="relative z-10 md:-mt-16">
           <AboutVision data={visionData} />
@@ -47,6 +46,10 @@ const AboutPage = () => {
       <section className="bg-white">
         <LearningModelSection />
       </section>
+      
+      {/* PERBAIKAN: Komentar dihapus agar komponen tampil */}
+      <StaffSection />
+
     </main>
   );
 };

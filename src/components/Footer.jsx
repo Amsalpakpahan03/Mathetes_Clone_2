@@ -9,10 +9,10 @@ const Footer = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const mainNavLinks = [
-    { name: "Home", href: "#" },
-    { name: "About Us", href: "#" },
-    { name: "Courses", href: "#" },
-    { name: "Contact Us", href: "#" },
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "/aboutus" },
+    { name: "Courses", href: "/course" },
+    { name: "Contact Us", href: "/contact" },
   ];
 
   const socialLinks = [
