@@ -1,7 +1,6 @@
-// src/components/About/AboutHero.jsx
-
 import React from "react";
-import OptimizedImage from "src/components/ui/OptimizedImage.jsx";
+import OptimizedImage from "../ui/OptimizedImage.jsx";
+
 
 const AboutHero = ({ data }) => {
   const { title, description, buttonText, mainImage } = data;
