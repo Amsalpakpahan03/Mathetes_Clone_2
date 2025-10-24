@@ -284,7 +284,7 @@ export const extraClassData = [
       "Creating harmony, together. The ensemble band fosters musical talent, discipline, and the joy of collaboration. Students unite to perform, express their creativity, and grow as musicians.",
     icon: FaMusic,
     image: {
-      slug: "extraclass-music",
+      slug: "Band",
       alt: "Beberapa siswa sedang bermain alat musik bersama",
     },
   },
