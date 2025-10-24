@@ -2,6 +2,12 @@
 
 // PERBAIKAN: Persingkat slug menjadi nama dasarnya saja.
 const testImageSlug = "about-section-image";
+const SchoolImageSlug = "Staf-all";
+const VisionImageSlug = "Mathetes-student";
+const GalleryImageSlug = "Graduation";
+const GalleryImageSlug2 = "Mathetes-student";
+const GalleryImageSlug3 = "Graduation-all";
+const GalleryImageSlug4 = "Teacher";
 
 // Data untuk section "Students Success is Our Focus"
 export const successFocusData = {
@@ -15,11 +21,11 @@ export const successFocusData = {
     caption: "Mathetes Christian School",
   },
   galleryImages: [
-    { slug: testImageSlug, alt: "Gallery Image 1" },
-    { slug: testImageSlug, alt: "Gallery Image 2" },
-    { slug: testImageSlug, alt: "Gallery Image 3" },
-    { slug: testImageSlug, alt: "Gallery Image 4" },
-    { slug: testImageSlug, alt: "Gallery Image 5" },
+    { slug: GalleryImageSlug4, alt: "Gallery Image 1" },
+    { slug: GalleryImageSlug, alt: "Gallery Image 2" },
+    { slug: GalleryImageSlug2, alt: "Gallery Image 3" },
+    { slug: GalleryImageSlug3, alt: "Gallery Image 4" },
+    { slug: SchoolImageSlug, alt: "Gallery Image 5" },
   ],
 };
 
@@ -29,7 +35,7 @@ export const visionData = {
   description:
     "Mathetes Christian School aims to build Spirit-led empowered disciples through whole-person education to impact the nations.",
   image: {
-    slug: testImageSlug,
+    slug: VisionImageSlug,
     alt: "Classroom activity at Mathetes Christian School",
   },
 };

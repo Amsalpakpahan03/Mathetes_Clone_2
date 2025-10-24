@@ -32,10 +32,10 @@ const Navbar = () => {
             className="h-16 w-16 mr-4"
           />
           <div>
-            <span className="font-bold text-xl tracking-wider block">
+            <span className="font-bold text-xl tracking-wider block mb-[-5px]">
               MATHETES
             </span>
-            <span className="text-xs uppercase">Christian School</span>
+            <span className="text-xs uppercase ">Christian School</span>
           </div>
         </div>
 
@@ -51,10 +51,10 @@ const Navbar = () => {
                 duration: 0.5,
                 delay: 0.2 + index * 0.1,
               }}
-              className="relative font-semibold hover:text-orange-500 transition-colors duration-300 group"
+              className="relative font-semibold hover:text-[#CEAF80] transition-colors duration-300 group"
             >
               {item.name}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#CEAF80] group-hover:w-full transition-all duration-300"></span>
             </motion.a>
           ))}
 
@@ -66,7 +66,7 @@ const Navbar = () => {
               duration: 0.5,
               delay: 0.6,
             }}
-            className="bg-slate-900 hover:bg-slate-500 text-white hover:text-orange-500 font-bold py-3 px-6 rounded-md flex items-center transition-colors duration-300"
+            className="bg-[#CEAF80] hover:bg-[#e7c797] text-white hover:text-[#243665] font-bold py-3 px-6 rounded-md flex items-center transition-colors duration-300"
           >
             <span>CONTACT US</span>
             <svg

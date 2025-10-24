@@ -7,7 +7,8 @@ import MissionSection from "../components/About/MissionSection";
 import AboutGallery from "../components/About/AboutGallery";
 import LearningModelSection from "../components/About/LearningModelSection";
 import StaffSection from "../components/ui/StaffSection"; // Impor sudah benar
-
+import AboutHome from "../components/ui/AboutHome";
+import { aboutSectionData } from "../data/Data";
 import { successFocusData, visionData } from "../data/AboutData";
 import { missionData } from "../data/MissionData";
 // Impor staffData tidak diperlukan di sini, karena StaffSection sudah mengimpornya sendiri
@@ -19,11 +20,11 @@ const AboutPage = () => {
       <section
         className="relative bg-cover bg-center bg pb-16"
         style={{
-          backgroundImage: "url('/images/about-section-image-large.png')",
+          backgroundImage: "url('/images/Graduation-medium.webp')",
         }}
       >
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-        <div className="relative z-10">
+        <div className="absolute inset-0 bg-black/60 backdrop-blur-[5px]"></div>
+        <div className="relative z-10 ">
           <AboutHero data={successFocusData} />
         </div>
       </section>
@@ -32,6 +33,7 @@ const AboutPage = () => {
       </div>
       <section className="bg-white">
         <div className="relative z-10 md:mt-15">
+          <AboutHome data={aboutSectionData} />
           <AboutVision data={visionData} />
         </div>
       </section>

@@ -18,7 +18,12 @@ const Footer = () => {
   const socialLinks = [
     { icon: <FaFacebookF />, href: "#", label: "Facebook" },
     { icon: <FaXTwitter />, href: "#", label: "X (Twitter)" },
-    { icon: <AiFillInstagram />, href: "#", label: "Instagram" },
+    {
+      icon: <AiFillInstagram />,
+      href: "https://www.instagram.com/mathetes_school/",
+      label: "Instagram",
+      target: "_blank",
+    },
     { icon: <FaLinkedinIn />, href: "#", label: "LinkedIn" },
     { icon: <FaPinterestP />, href: "#", label: "Pinterest" },
   ];
@@ -121,7 +126,11 @@ const Footer = () => {
                 key={index}
                 href={social.href}
                 aria-label={social.label}
-                className="text-orange-500 text-xl md:text-2xl hover:text-orange-400 hover:scale-110 transition-all duration-300"
+                className="text-[#CEAF80] text-xl md:text-2xl hover:text-[#CEAF80] hover:scale-110 transition-all duration-300"
+                target={social.target}
+                rel={
+                  social.target === "_blank" ? "noopener noreferrer" : undefined
+                }
               >
                 {social.icon}
               </a>
@@ -130,11 +139,10 @@ const Footer = () => {
         </div>
 
         {/* Garis Pemisah */}
-        <hr className="border-t-2 border-orange-500 mb-6 md:mb-10" />
+        <hr className="border-t-2 border-[#CEAF80] mb-6 md:mb-10" />
 
         {/* Bagian Bawah */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 md:gap-0">
-          {/* Logo kiri bawah */}
           <div className="flex items-center">
             <img
               src="/images/logo.png"
@@ -150,8 +158,6 @@ const Footer = () => {
               </span>
             </div>
           </div>
-
-          {/* Copyright kanan bawah */}
         </div>
       </div>
     </footer>

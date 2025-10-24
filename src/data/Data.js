@@ -14,46 +14,45 @@ import {
 } from "react-icons/fa";
 import { FaTableTennisPaddleBall } from "react-icons/fa6";
 
-export const HeaderHome = [
-  {
-    id: 1,
-    subtitle: "National Accredited",
-    title: "National Accredited",
-    description:
-      "Officially recognized by the Ministry of Education for our commitment to high-quality standards and academic excellence.",
-    buttonText: "About Us",
-    imageUrl: Background1,
-  },
-  {
-    id: 2,
-    subtitle: "Biblical-Based Education",
-    title: "Biblical-Based Education",
-    description:
-      "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
-    buttonText: "Explore Programs",
-    imageUrl: Background2,
-  },
-  {
-    id: 3,
-    subtitle: "International Standard Curriculum",
-    title: "International Standard Curriculum",
-    description:
-      "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
-    buttonText: "enroll Now",
-    imageUrl: Background3,
-  },
-];
+// export const HeaderHome = [
+//   {
+//     id: 1,
+//     subtitle: "National Accredited",
+//     title: "National Accredited",
+//     description:
+//       "Officially recognized by the Ministry of Education for our commitment to high-quality standards and academic excellence.",
+//     buttonText: "About Us",
+//     imageUrl: Background1,
+//   },
+//   {
+//     id: 2,
+//     subtitle: "Biblical-Based Education",
+//     title: "Biblical-Based Education",
+//     description:
+//       "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
+//     buttonText: "Explore Programs",
+//     imageUrl: Background2,
+//   },
+//   {
+//     id: 3,
+//     subtitle: "International Standard Curriculum",
+//     title: "International Standard Curriculum",
+//     description:
+//       "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
+//     buttonText: "enroll Now",
+//     imageUrl: Background3,
+//   },
+// ];
 
 export const aboutSectionData = {
   title: "MATHETES Christian School",
   descriptions: [
-    "problems trying to resolve the conflict between the two major realms of classical physics:",
-    "newtonian mechanics",
+    "Mathetes Christian School was established in 2019 to meet the growing need for an integrated Christian education in Indonesia. As a Holy Spirit–empowered institution, we are committed to developing whole leaders for the whole world through our distinctive Whole Person education. At Mathetes, students go beyond academics—they are nurtured to GROW in their faith and become the Spirit-empowered leaders God has called them to be. Grounded in a Biblical approach to learning, Mathetes strives to raise up conquerors and godly leaders who reflect God’s character, bring blessings to others, and make a lasting impact on their generation.",
   ],
   buttom: "contact",
   link: "/contact",
   image: {
-    slug: "about-section-image",
+    slug: "School",
     alt: "Loading",
   },
 };
@@ -139,7 +138,7 @@ export const heroDataCourse = [
       "Our Goal Is To Make Online Education Work For Everyone, Fostering a Bright Future.",
     buttonText: "View Courses",
     image: {
-      slug: "about-section-image",
+      slug: "Computer",
       alt: "Suasana belajar online yang interaktif dan modern",
     },
   },
@@ -151,7 +150,7 @@ export const heroDataCourse = [
       "Explore cutting-edge programs in robotics, coding, and digital arts.",
     buttonText: "Explore Programs",
     image: {
-      slug: "Background2",
+      slug: "Graduation-all",
       alt: "Seorang siswa berinteraksi dengan robot canggih",
     },
   },
@@ -163,7 +162,7 @@ export const heroDataCourse = [
       "Nurturing talented students to become leaders and innovators in their fields.",
     buttonText: "Learn Our Story",
     image: {
-      slug: "Background3",
+      slug: "Graduation",
       alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
     },
   },
@@ -190,7 +189,7 @@ export const heroDataHome = [
       "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
     buttonText: "Explore Programs",
     image: {
-      slug: "Background2",
+      slug: "Pray",
       alt: "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
     },
   },
@@ -202,21 +201,20 @@ export const heroDataHome = [
       "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
     buttonText: "Learn Our Story",
     image: {
-      slug: "Background3",
+      slug: "School",
       alt: "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
     },
   },
 ];
 
 export const courseOurCurriculum = {
-  title: "Every Client Matters",
+  title: "Educating the Whole Person for Global Impact",
   descriptions: [
-    "problems trying to resolve the conflict between the two major realms of classical physics:",
-    "newtonian mechanics",
+    "At Mathetes Christian School, our curriculum is more than just academicsit is a journey of whole-person education. Guided by our vision to build Spirit-led disciples, we intentionally integrate intellectual alertness with spiritual vitality, physical discipline, social adeptness, and essential life skills. Our courses are designed to transform students in wisdom and truth, empowering them to think critically, lead with integrity, and pursue their unique, God-given passions. We are not just teaching subjects; we are nurturing holistic leaders prepared to impact the nations with love and hope.",
   ],
   link: "",
   image: {
-    slug: "about-section-image",
+    slug: "Mathetes-student",
     alt: "Loading",
   },
 };
@@ -227,11 +225,11 @@ export const curriculumSectionData = {
     "For 55 years, The A.C.E (Accelerated Christian Education®) also known as the School of Tomorrow has been a trendsetter in Biblical educational reform for 55 years and used by over 24.000 schools in over 142 countries on seven continents globally. Its philosophy is built on basic principles of the Word of God. In South Pasific Region, A.C.E. is well promoted and facilitated by Southern Cross Educational Enterprises (www.scee.edu.au). Students are taught to see life from God’s point of view, to take responsibility for their own learning, and to walk in Godly wisdom and character.",
   images: [
     {
-      slug: "about-section-image",
+      slug: "Teacher",
       alt: "Siswa sedang belajar di laboratorium komputer sekolah",
     },
     {
-      slug: "curriculum-award-ceremony",
+      slug: "Pray2",
       alt: "On Progress",
     },
   ],
@@ -253,7 +251,7 @@ export const extraClassData = [
       "Dive into discipline and health. Our swimming club builds strong athletic skills, promotes a healthy lifestyle, and develops personal perseverance in a supportive, professional environment.",
     icon: FaSwimmer,
     image: {
-      slug: "about-section-image",
+      slug: "Swimming",
       alt: "Siswa sedang belajar coding di depan komputer",
     },
   },

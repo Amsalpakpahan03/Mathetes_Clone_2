@@ -22,7 +22,9 @@ const AboutHero = ({ data }) => {
         </div>
 
         {/* Kolom Kanan: Teks & Tombol */}
-        <div className="flex flex-col items-start justify-center"> {/* Tambah justify-center */}
+        <div className="flex flex-col items-start justify-center">
+          {" "}
+          {/* Tambah justify-center */}
           {/* PERBAIKAN: Font size, weight, dan warna */}
           <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
             {title}
@@ -31,7 +33,7 @@ const AboutHero = ({ data }) => {
           <p className="text-lg md:text-xl font-light text-gray-200 mb-8 max-w-lg leading-relaxed">
             {description}
           </p>
-          <button className="bg-red-600 text-white font-bold py-3 px-8 rounded-md hover:bg-red-700 transition-colors duration-300">
+          <button className="bg-[#CEAF80] text-white font-bold py-3 px-8 rounded-md hover:bg-[#f3ac40]  transition-colors duration-300">
             {buttonText}
           </button>
         </div>

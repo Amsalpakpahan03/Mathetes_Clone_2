@@ -89,15 +89,19 @@ const ContactPage = () => {
               className="flex flex-col items-center"
             >
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6285283464956"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-20 w-20 md:h-24 md:w-24 rounded-full bg-[#243665] flex items-center justify-center mb-3 hover:bg-green-600 transition"
               >
                 <BsTelephone className="text-white text-3xl md:text-4xl" />
               </a>
-              <h3 className="text-xl md:text-2xl font-bold mb-1">Phone / WhatsApp</h3>
-              <p className="text-gray-600 text-sm md:text-base">+62 812-3456-7890</p>
+              <h3 className="text-xl md:text-2xl font-bold mb-1">
+                Phone / WhatsApp
+              </h3>
+              <p className="text-gray-600 text-sm md:text-base">
+                +6285283464956
+              </p>
             </motion.div>
 
             {/* Email */}
@@ -138,7 +142,8 @@ const ContactPage = () => {
               </a>
               <h3 className="text-xl md:text-2xl font-bold mb-1">Location</h3>
               <p className="text-gray-600 text-sm md:text-base text-center">
-                Jalan Surya Timur IIX No. 16, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520
+                Jalan Surya Timur IIX No. 16, Kedoya Utara, Kec. Kb. Jeruk, Kota
+                Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520
               </p>
             </motion.div>
           </div>

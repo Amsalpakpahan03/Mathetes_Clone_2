@@ -6,13 +6,14 @@ import HeroSlider from "../components/Hero/HeroSlider";
 // import { AboutData } from "../data/AboutUsData";
 import FeaturesSection from "../components/Card/FeaturesSection";
 import AboutHome from "../components/ui/AboutHome";
-import { HeaderHome } from "../data/Data";
+
+import InteractiveSlider from "../components/ui/InteractiveSlider";
 import {
   aboutSectionData,
   SchoolProgramData,
   featuresData,
-  heroDataCourse,
   heroDataHome,
+  extraClassData,
 } from "../data/Data";
 
 const HomePage = () => {
@@ -29,6 +30,7 @@ const HomePage = () => {
         </h1>
         <FeaturesSection data={SchoolProgramData} />
       </div>
+      <InteractiveSlider data={extraClassData} />
     </div>
   );
 };

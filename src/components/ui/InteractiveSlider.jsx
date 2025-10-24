@@ -114,8 +114,8 @@ const InteractiveSlider = ({ data }) => {
               </motion.div>
             </AnimatePresence>
 
-            <div className="absolute bottom-50 md:bottom-[-90px] left-25 md:left-75 ">
-              <div className="bg-red-600 text-white w-24 h-24 rounded-full flex items-center justify-center shadow-lg">
+            <div className="absolute bottom-50 md:bottom-[-90px] left-25 md:left-75 z-10 ">
+              <div className="bg-red-600 text-white w-24 h-24 rounded-full flex items-center justify-center shadow-lg ">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={page}
