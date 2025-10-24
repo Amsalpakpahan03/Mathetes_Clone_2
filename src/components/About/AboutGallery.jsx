@@ -1,7 +1,7 @@
 // src/components/About/AboutGallery.jsx
 
 import React from "react";
-import OptimizedImage from "../UI/OptimizedImage.jsx";
+import OptimizedImage from "src/components/ui/OptimizedImage.jsx";
 
 const AboutGallery = ({ images }) => {
   return (
