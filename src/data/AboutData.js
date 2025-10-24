@@ -29,7 +29,6 @@ export const successFocusData = {
   ],
 };
 
-// Data untuk section "Vision we have"
 export const visionData = {
   title: "Vision we have",
   description:
