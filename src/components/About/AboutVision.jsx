@@ -1,7 +1,8 @@
 // src/components/About/AboutVision.jsx
 
 import React from "react";
-import OptimizedImage from "../UI/OptimizedImage.jsx";
+import OptimizedImage from "../ui/OptimizedImage.jsx";
+
 
 const AboutVision = ({ data }) => {
   const { title, description, image } = data;
