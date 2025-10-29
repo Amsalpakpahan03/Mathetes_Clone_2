@@ -21,7 +21,7 @@ const itemVariants = {
 };
 
 const HeroSlide = ({ data }) => {
-  const { id, subtitle, title, description, buttonText, image } = data;
+  const { id, subtitle, title, description, buttonText, image, href } = data;
 
   return (
     <div>
@@ -62,7 +62,7 @@ const HeroSlide = ({ data }) => {
               variants={itemVariants}
               className="bg-blue-800 hover:bg-blue-700 font-semibold py-3 px-8 rounded-md flex items-center transition-colors duration-300"
             >
-              {buttonText}
+              <a href={href}>{buttonText}</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 ml-2"

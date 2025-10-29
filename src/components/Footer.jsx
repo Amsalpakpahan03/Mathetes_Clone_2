@@ -31,7 +31,6 @@ const Footer = () => {
   return (
     <footer className="bg-[#243665] text-white font-[Poppins]">
       <div className="container mx-auto px-4 md:px-8 pt-10 pb-6 md:pt-16 md:pb-10">
-        {/* Bagian Atas */}
         <div className="mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6 leading-snug max-w-3xl">
             Get in Touch with Us for <br className="hidden sm:block" /> Your
@@ -40,13 +39,13 @@ const Footer = () => {
 
           {/* Navigasi */}
           <nav>
-            {/* Desktop */}
+            {/* Dektop */}
             <ul className="hidden md:flex flex-wrap gap-x-10 gap-y-4 text-base md:text-lg">
               {mainNavLinks.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="hover:text-red-500 transition-colors duration-300"
+                    className="hover:text-[#CEAF80] transition-colors duration-300"
                   >
                     {link.name}
                   </a>
@@ -108,7 +107,7 @@ const Footer = () => {
                   <a
                     href={link.href}
                     onClick={toggleMenu}
-                    className="hover:text-red-500 transition-colors duration-300"
+                    className="hover:text-[#CEAF80] transition-colors duration-300"
                   >
                     {link.name}
                   </a>

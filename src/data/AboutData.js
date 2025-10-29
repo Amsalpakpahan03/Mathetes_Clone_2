@@ -11,10 +11,11 @@ const GalleryImageSlug4 = "Teacher";
 
 // Data untuk section "Students Success is Our Focus"
 export const successFocusData = {
-  title: "Students Success is Our Focus",
+  title: "Building Spirit-Led Disciples for Global Impact",
   description:
-    "Committed to your success, our consulting firm delivers tailored strategies and expert guidance, ensuring business excellence through precise solutions and strategic expertise for sustainable growth.",
+    "Welcome to Mathetes Christian School. We are more than an academic institution; we are a community committed to whole-person education. We integrate Biblical truth with academic excellence to nurture Spirit-led, empowered leaders ready to impact the nations with wisdom, character, and hope.",
   buttonText: "Collaborate with Us",
+  href: "/contact",
   mainImage: {
     slug: testImageSlug,
     alt: "Students of Mathetes Christian School",

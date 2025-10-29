@@ -1,9 +1,11 @@
-import React from "react";
-import OptimizedImage from "../ui/OptimizedImage.jsx";
+// src/components/About/AboutHero.jsx
 
+import React from "react";
+import OptimizedImage from "../UI/OptimizedImage.jsx";
+import { href } from "react-router-dom";
 
 const AboutHero = ({ data }) => {
-  const { title, description, buttonText, mainImage } = data;
+  const { title, description, buttonText, mainImage, href } = data;
 
   return (
     <div className="container mx-auto px-4 py-16 text-white">
@@ -20,20 +22,19 @@ const AboutHero = ({ data }) => {
           </div>
         </div>
 
-        {/* Kolom Kanan: Teks & Tombol */}
         <div className="flex flex-col items-start justify-center">
           {" "}
-          {/* Tambah justify-center */}
-          {/* PERBAIKAN: Font size, weight, dan warna */}
           <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
             {title}
           </h2>
-          {/* PERBAIKAN: Font size, weight, dan warna */}
           <p className="text-lg md:text-xl font-light text-gray-200 mb-8 max-w-lg leading-relaxed">
             {description}
           </p>
-          <button className="bg-[#CEAF80] text-white font-bold py-3 px-8 rounded-md hover:bg-[#f3ac40]  transition-colors duration-300">
-            {buttonText}
+          <button
+            href={href}
+            className="bg-[#CEAF80] text-white font-bold py-3 px-8 rounded-md hover:bg-[#f3ac40]  transition-colors duration-300"
+          >
+            <a href={href}> {buttonText} </a>
           </button>
         </div>
       </div>

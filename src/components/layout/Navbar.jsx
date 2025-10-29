@@ -143,11 +143,11 @@ const Navbar = () => {
               </a>
             ))}
           </nav>
-          <div className="pt-4 border-t border-slate-600">
+          <div className="pt-4 border-t border-[#e7c797]">
             <button
               onClick={() => handleMobileNav("/contact")}
               // onClick={toggleMenu}
-              className="mb-5 block w-full px-4 py-3 rounded-lg bg-slate-900 hover:bg-slate-700 font-bold"
+              className="mb-5 block w-full px-4 py-3 rounded-lg bg-[#e7c797] hover:bg-[#e7c797] font-bold"
             >
               CONTACT US
             </button>

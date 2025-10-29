@@ -3,7 +3,7 @@ export const staffData = [
     id: 1,
     name: "Yohana Febry Chris Suprapto",
     title: "Kepala Sekolah",
-    imageSlug: "-",
+    imageSlug: "staf-yohana",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const staffData = [
     id: 4,
     name: "Sumiati",
     title: "Admin Sekolah",
-    imageSlug: "-",
+    imageSlug: "staf-Sumiati",
   },
   {
     id: 5,

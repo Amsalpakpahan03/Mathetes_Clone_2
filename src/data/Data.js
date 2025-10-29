@@ -137,6 +137,7 @@ export const heroDataCourse = [
     description:
       "Our Goal Is To Make Online Education Work For Everyone, Fostering a Bright Future.",
     buttonText: "View Courses",
+    href: "/course",
     image: {
       slug: "Computer",
       alt: "Suasana belajar online yang interaktif dan modern",
@@ -149,6 +150,7 @@ export const heroDataCourse = [
     description:
       "Explore cutting-edge programs in robotics, coding, and digital arts.",
     buttonText: "Explore Programs",
+    href: "/course",
     image: {
       slug: "Graduation-all",
       alt: "Seorang siswa berinteraksi dengan robot canggih",
@@ -161,6 +163,7 @@ export const heroDataCourse = [
     description:
       "Nurturing talented students to become leaders and innovators in their fields.",
     buttonText: "Learn Our Story",
+    href: "/abautus",
     image: {
       slug: "Graduation",
       alt: "Para wisudawan merayakan kelulusan mereka dengan gembira",
@@ -176,6 +179,7 @@ export const heroDataHome = [
     description:
       "Officially recognized by the Ministry of Education for our commitment to high-quality standards and academic excellence.",
     buttonText: "About Us",
+    href: "/aboutus",
     image: {
       slug: "Mathetes-student",
       alt: "NATIONAL ACCREDITED",
@@ -188,6 +192,7 @@ export const heroDataHome = [
     description:
       "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
     buttonText: "Explore Programs",
+    href: "/course",
     image: {
       slug: "Pray",
       alt: "Integrating timeless biblical values and principles into every aspect of learning, fostering wisdom, character, and faith.",
@@ -200,6 +205,7 @@ export const heroDataHome = [
     description:
       "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
     buttonText: "Learn Our Story",
+    href: "/aboutus",
     image: {
       slug: "School",
       alt: "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
@@ -238,7 +244,7 @@ export const curriculumSectionData = {
 export const schoolProgramHeaderData = {
   title: "School Program",
   image: {
-    slug: "about-section-image",
+    slug: "Is-born",
     alt: "Siswa-siswi sedang belajar dengan serius di laboratorium komputer.",
   },
 };
@@ -262,7 +268,7 @@ export const extraClassData = [
       "Sharpen your reflexes and strategic mind. Our table tennis club is the perfect place to develop agility, precision, and quick thinking while fostering healthy competition and sportsmanship.",
     icon: FaTableTennisPaddleBall,
     image: {
-      slug: "extraclass-art", // Siapkan gambar dengan nama dasar ini
+      slug: "Tenis",
       alt: "Seorang siswi sedang melukis di atas kanvas",
     },
   },
@@ -273,7 +279,7 @@ export const extraClassData = [
       "Master the skills of the future. In this club, students learn to create engaging content, understand social media analytics, and build effective online strategies in a hands-on, collaborative setting.",
     icon: FaBullhorn,
     image: {
-      slug: "extraclass-music",
+      slug: "Digital-Marketing",
       alt: "Beberapa siswa sedang bermain alat musik bersama",
     },
   },
