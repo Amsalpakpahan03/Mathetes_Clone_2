@@ -4,6 +4,7 @@ import React from "react";
 import OptimizedImage from "../ui/OptimizedImage.jsx";
 
 
+
 const AboutVision = ({ data }) => {
   const { title, description, image } = data;
   return (
