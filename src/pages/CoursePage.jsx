@@ -12,8 +12,10 @@ import {
   schoolProgramHeaderData,
   SchoolProgramData,
   extraClassData,
+  testimonialsData,
 } from "../data/Data";
 import CurriculumSection from "../components/ui/CurriculumSection";
+import Testimonials from "../components/ui/Testimonials";
 
 const CoursePage = () => {
   return (
@@ -35,6 +37,7 @@ const CoursePage = () => {
         </h2>
       </div>
       <InteractiveSlider data={extraClassData} />
+      <Testimonials />
     </div>
   );
 };

@@ -268,7 +268,7 @@ export const extraClassData = [
       "Sharpen your reflexes and strategic mind. Our table tennis club is the perfect place to develop agility, precision, and quick thinking while fostering healthy competition and sportsmanship.",
     icon: FaTableTennisPaddleBall,
     image: {
-      slug: "Tenis",
+      slug: "Tenis-table",
       alt: "Seorang siswi sedang melukis di atas kanvas",
     },
   },
@@ -292,6 +292,57 @@ export const extraClassData = [
     image: {
       slug: "Band",
       alt: "Beberapa siswa sedang bermain alat musik bersama",
+    },
+  },
+];
+
+export const testimonialsData = [
+  {
+    id: 1,
+    name: "Linda Lie",
+    designation: "Ortu dari Kenneth (Grade 7) & Casslyn (Grade 5)",
+    testimonial:
+      "Sejak bersekolah di Mathetes, anak saya berkembang pesat—lebih mandiri, bertanggung jawab, dan mengenal Tuhan karena setiap hari dididik didalam character building yang sangat menekankan kepada karakter Kristus. Saya bersyukur untuk para guru yang mengajar dengan sepenuh hati dan bukan hanya secara akademis. ",
+    rating: 5,
+    image: {
+      slug: "Linda",
+      alt: "Foto profil Ahmad Subagja",
+    },
+  },
+  {
+    id: 2,
+    name: "Audrey Yao",
+    designation: "Grade 11",
+    testimonial:
+      "I love Mathetes because it’s more than school. I get to explore what I love and make it even better!",
+    rating: 5,
+    image: {
+      slug: "Audry",
+      alt: "Foto profil Siti Aminah",
+    },
+  },
+  {
+    id: 3,
+    name: "Haydn Edison",
+    designation: "Grade 10",
+    testimonial:
+      "I’m glad to be in this school because the community and friendship here are really strong!",
+    rating: 4,
+    image: {
+      slug: "Haydn",
+      alt: "Foto profil Budi Santoso",
+    },
+  },
+  {
+    id: 4,
+    name: "Jennie Silvia",
+    designation: "Mom of Reinhart (Grade 6) & Richard (Grade 8)",
+    testimonial:
+      "Saya sangat Bersyukur, bisa tau ada sekolah Mathetes ini, Karena petama kali saya denger tentang kurikulum langsung bikin saya tertarik. Yang tadinya Richard & Reinhard sulit sulit sekali mengerti tentang pelajaran sekolah yang lama, tapi di PACEs mereka ini, pelajaran mereka di ulang-ulang sampe mereka pun mengerti. Bahkan melihat supervisornya yang begitu sabar memberikan penjelasan sampai anak-anak mengerti. Bener-bener step by step. Dan yang menarik belajar mandiri dengan cara set goal mereka, mereka belajar untuk jujur, menilai tugas yang mereka kerjakan. Mereka bukan hanya belajar secara akademik tetapi juga belajar mengenai karakter-karakter yang baik skali untuk diterapkan dalam kehidupan mereka. dan di sekolah Mathetes ini , banyak sekali enricment class yang membuat anak-anak bisa berkarya mengembangkan potensi-potensi yang ada dalam diri mereka. ada kelah bahasa Inggris, Project, Art & Craft, Home Economics, FriYay, dsb",
+    rating: 5,
+    image: {
+      slug: "Jennie-Silvia",
+      alt: "Foto profil Dewi Lestari",
     },
   },
 ];

@@ -1,27 +1,73 @@
 import React from "react";
 
 const learningData = [
-  { id: 1, title: "SPIRITUALLY ALIVE", color: "bg-teal-500", textColor: "text-teal-500" },
-  { id: 2, title: "SOCIALLY ADEPT", color: "bg-yellow-400", textColor: "text-yellow-400" },
-  { id: 3, title: "INTELLECTUALLY ALERT", color: "bg-orange-500", textColor: "text-orange-500" },
-  { id: 4, title: "LIFE SKILL", color: "bg-red-500", textColor: "text-red-500" },
-  { id: 5, title: "PHYSICALLY DISCIPLINED", color: "bg-purple-600", textColor: "text-purple-600" },
+  {
+    id: 1,
+    title: "SPIRITUALLY ALIVE",
+    color: "bg-teal-500",
+    textColor: "text-teal-500",
+  },
+  {
+    id: 2,
+    title: "SOCIALLY ADEPT",
+    color: "bg-yellow-400",
+    textColor: "text-yellow-400",
+  },
+  {
+    id: 3,
+    title: "INTELLECTUALLY ALERT",
+    color: "bg-orange-500",
+    textColor: "text-orange-500",
+  },
+  {
+    id: 4,
+    title: "LIFE SKILL",
+    color: "bg-red-500",
+    textColor: "text-red-500",
+  },
+  {
+    id: 5,
+    title: "PHYSICALLY DISCIPLINED",
+    color: "bg-purple-600",
+    textColor: "text-purple-600",
+  },
 ];
 
 const descriptionData = {
   left: [
-    { id: 5, title: "PHYSICALLY DISCIPLINED", desc: "Physical Education and Healthy Lifestyle." },
-    { id: 4, title: "LIFE SKILL", desc: "Talent Exploring and Entrepreneurship." },
-    { id: 2, title: "SOCIALLY ADEPT", desc: "Communication SAM, Leadership, and Evangelistic Capabilities." },
+    {
+      id: 5,
+      title: "PHYSICALLY DISCIPLINED",
+      desc: "Physical Education and Healthy Lifestyle.",
+    },
+    {
+      id: 4,
+      title: "LIFE SKILL",
+      desc: "Talent Exploring and Entrepreneurship.",
+    },
+    {
+      id: 2,
+      title: "SOCIALLY ADEPT",
+      desc: "Communication, Leadership, and Evangelistic Capabilities.",
+    },
   ],
   right: [
-    { id: 1, title: "SPIRITUALLY ALIVE", desc: "Biblical Knowledge, Christ-like Character, and Evangelistic Capabilities." },
-    { id: 3, title: "INTELLECTUALLY ALERT", desc: "Creativity, Critical Thinking, and Information Literacy." },
+    {
+      id: 1,
+      title: "SPIRITUALLY ALIVE",
+      desc: "Biblical Knowledge, Christ-like Character, and Evangelistic Capabilities.",
+    },
+    {
+      id: 3,
+      title: "INTELLECTUALLY ALERT",
+      desc: "Creativity, Critical Thinking, and Information Literacy.",
+    },
   ],
 };
 
 const LearningModelSection = () => {
-  const getColor = (id) => learningData.find(item => item.id === id)?.textColor || "text-gray-900";
+  const getColor = (id) =>
+    learningData.find((item) => item.id === id)?.textColor || "text-gray-900";
 
   return (
     <section className="bg-white py-16 md:py-20">
@@ -46,11 +92,12 @@ const LearningModelSection = () => {
           {learningData.map((item, index) => {
             // Kalkulasi untuk kontainer 320px dan item 96px (w-24)
             const radius = 127; // Skala dari 190 (190 * (320/480))
-            const angle = (index / learningData.length) * 2 * Math.PI - (Math.PI / 2);
+            const angle =
+              (index / learningData.length) * 2 * Math.PI - Math.PI / 2;
             const x = radius * Math.cos(angle);
             const y = radius * Math.sin(angle);
             // Offset: (Container / 2) - (Item / 2) = (320/2) - (96/2) = 160 - 48 = 112
-            const offset = 112; 
+            const offset = 112;
 
             return (
               <div
@@ -86,11 +133,12 @@ const LearningModelSection = () => {
           {learningData.map((item, index) => {
             // Kalkulasi original untuk 480px
             const radius = 190;
-            const angle = (index / learningData.length) * 2 * Math.PI - (Math.PI / 2);
+            const angle =
+              (index / learningData.length) * 2 * Math.PI - Math.PI / 2;
             const x = radius * Math.cos(angle);
             const y = radius * Math.sin(angle);
             // Offset: (480 / 2) - (144 / 2) = 240 - 72 = 168
-            const offset = 168; 
+            const offset = 168;
 
             return (
               <div

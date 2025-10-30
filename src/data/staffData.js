@@ -2,7 +2,7 @@ export const staffData = [
   {
     id: 1,
     name: "Yohana Febry Chris Suprapto",
-    title: "Kepala Sekolah",
+    title: "Principal",
     imageSlug: "staf-yohana",
   },
   {
@@ -20,37 +20,37 @@ export const staffData = [
   {
     id: 4,
     name: "Sumiati",
-    title: "Admin Sekolah",
+    title: "Schools Admin",
     imageSlug: "staf-Sumiati",
   },
   {
     id: 5,
     name: " Robert Edison",
-    title: "Coach / Guru Physical Education",
+    title: "Coach / PE Teacher",
     imageSlug: "staf-Robert-Edison",
   },
   {
     id: 6,
     name: "Jonathan Kevin",
-    title: "Coach / Guru Physical Education",
+    title: "Robert Edison",
     imageSlug: "jonathan-kevin",
   },
   {
     id: 7,
     name: "Juliana Hidayat",
-    title: "Guru Project-Based Learning Class",
+    title: "Project-based class Teacher",
     imageSlug: "staf-Juliana-Hidayat",
   },
   {
     id: 8,
     name: "Bella Serina Ginting",
-    title: "Staf Keamanan",
+    title: "Custodian Staff",
     imageSlug: "staf-Bella-Serina",
   },
   {
     id: 9,
     name: "Debora",
-    title: "Staf Keamanan",
+    title: "Security Staff",
     imageSlug: "staf-Debora",
   },
 ];

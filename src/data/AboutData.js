@@ -8,6 +8,7 @@ const GalleryImageSlug = "Graduation";
 const GalleryImageSlug2 = "Mathetes-student";
 const GalleryImageSlug3 = "Graduation-all";
 const GalleryImageSlug4 = "Teacher";
+const SchoolImageSlug5 = "About-us-hero";
 
 // Data untuk section "Students Success is Our Focus"
 export const successFocusData = {
@@ -17,7 +18,7 @@ export const successFocusData = {
   buttonText: "Collaborate with Us",
   href: "/contact",
   mainImage: {
-    slug: testImageSlug,
+    slug: SchoolImageSlug5,
     alt: "Students of Mathetes Christian School",
     caption: "Mathetes Christian School",
   },
