@@ -20,7 +20,7 @@ export const staffData = [
   {
     id: 4,
     name: "Sumiati",
-    title: "Schools Admin",
+    title: "School's Admin",
     imageSlug: "staf-Sumiati",
   },
   {
@@ -32,13 +32,13 @@ export const staffData = [
   {
     id: 6,
     name: "Jonathan Kevin",
-    title: "Robert Edison",
+    title: "Coach / Edison",
     imageSlug: "jonathan-kevin",
   },
   {
     id: 7,
     name: "Juliana Hidayat",
-    title: "Project-based class Teacher",
+    title: "Project-based Class Teacher",
     imageSlug: "staf-Juliana-Hidayat",
   },
   {

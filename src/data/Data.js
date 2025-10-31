@@ -260,7 +260,7 @@ export const extraClassData = [
   },
   {
     id: 2,
-    title: "Table Tenis",
+    title: "Table Tennis",
     description:
       "Sharpen your reflexes and strategic mind. Our table tennis club is the perfect place to develop agility, precision, and quick thinking while fostering healthy competition and sportsmanship.",
     icon: FaTableTennisPaddleBall,
