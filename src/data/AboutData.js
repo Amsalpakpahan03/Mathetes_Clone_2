@@ -15,7 +15,7 @@ export const successFocusData = {
   title: "Building Spirit-Led Disciples for Global Impact",
   description:
     "Welcome to Mathetes Christian School. We are more than an academic institution; we are a community committed to whole-person education. We integrate Biblical truth with academic excellence to nurture Spirit-led, empowered leaders ready to impact the nations with wisdom, character, and hope.",
-  buttonText: "Collaborate with Us",
+  buttonText: "Join Us",
   href: "/contact",
   mainImage: {
     slug: SchoolImageSlug5,
@@ -32,7 +32,7 @@ export const successFocusData = {
 };
 
 export const visionData = {
-  title: "Vision",
+  title: "Vision we have",
   description:
     "Mathetes Christian School aims to build Spirit-led empowered disciples through whole-person education to impact the nations.",
   image: {

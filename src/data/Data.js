@@ -216,7 +216,7 @@ export const heroDataHome = [
 export const courseOurCurriculum = {
   title: "Educating the Whole Person for Global Impact",
   descriptions: [
-    "At Mathetes Christian School, our curriculum is more than just academicsit is a journey of whole-person education. Guided by our vision to build Spirit-led disciples, we intentionally integrate intellectual alertness with spiritual vitality, physical discipline, social adeptness, and essential life skills. Our courses are designed to transform students in wisdom and truth, empowering them to think critically, lead with integrity, and pursue their unique, God-given passions. We are not just teaching subjects; we are nurturing holistic leaders prepared to impact the nations with love and hope.",
+    "At Mathetes Christian School, our curriculum is more than just academic. It is a journey of whole-person education. Guided by our vision to build Spirit-led disciples, we intentionally integrate intellectual alertness with spiritual vitality, physical discipline, social adeptness, and essential life skills. Our courses are designed to transform students in wisdom and truth, empowering them to think critically, lead with integrity, and pursue their unique, God-given passions. We are not just teaching subjects; we are nurturing holistic leaders prepared to impact the nations with love and hope.",
   ],
   link: "",
   image: {
