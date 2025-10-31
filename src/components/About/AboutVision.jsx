@@ -22,7 +22,10 @@ const AboutVision = ({ data }) => {
 
   return (
     <section className="py-20 bg-white">
-
+      {/* INI PERBAIKANNYA: Tambahkan "grid-cols-1" 
+          Ini adalah layout 'mobile-first' (default 1 kolom).
+          'md:grid-cols-2' akan aktif di layar lebih besar.
+        */}
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Bagian Kiri (Teks) */}
         <motion.div

@@ -133,9 +133,8 @@ export const heroDataCourse = [
   {
     id: 1,
     subtitle: "Join Our Community",
-    title: "HIGH QUALITY COURSES",
-    description:
-      "Our Goal Is To Make Online Education Work For Everyone, Fostering a Bright Future.",
+    title: "",
+    description: "",
     buttonText: "View Courses",
     href: "/course",
     image: {
@@ -146,9 +145,8 @@ export const heroDataCourse = [
   {
     id: 2,
     subtitle: "Prepare For The Future",
-    title: "INNOVATIVE SCIENCE & TECH",
-    description:
-      "Explore cutting-edge programs in robotics, coding, and digital arts.",
+    title: "",
+    description: "",
     buttonText: "Explore Programs",
     href: "/course",
     image: {
@@ -159,9 +157,8 @@ export const heroDataCourse = [
   {
     id: 3,
     subtitle: "Excellence in Education",
-    title: "A LEGACY OF ACHIEVEMENT",
-    description:
-      "Nurturing talented students to become leaders and innovators in their fields.",
+    title: "",
+    description: "",
     buttonText: "Learn Our Story",
     href: "/abautus",
     image: {
@@ -305,7 +302,7 @@ export const testimonialsData = [
       "Sejak bersekolah di Mathetes, anak saya berkembang pesat—lebih mandiri, bertanggung jawab, dan mengenal Tuhan karena setiap hari dididik didalam character building yang sangat menekankan kepada karakter Kristus. Saya bersyukur untuk para guru yang mengajar dengan sepenuh hati dan bukan hanya secara akademis. ",
     rating: 5,
     image: {
-      slug: "Linda",
+      slug: "TestimoniP",
       alt: "Foto profil Ahmad Subagja",
     },
   },
@@ -327,7 +324,7 @@ export const testimonialsData = [
     designation: "Grade 10",
     testimonial:
       "I’m glad to be in this school because the community and friendship here are really strong!",
-    rating: 4,
+    rating: 5,
     image: {
       slug: "Haydn",
       alt: "Foto profil Budi Santoso",

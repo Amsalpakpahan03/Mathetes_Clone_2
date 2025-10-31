@@ -44,13 +44,13 @@ export const staffData = [
   {
     id: 8,
     name: "Bella Serina Ginting",
-    title: "Custodian Staff",
+    title: "Security Staff",
     imageSlug: "Bella",
   },
   {
     id: 9,
     name: "Debora",
-    title: "Security Staff",
+    title: "Custodian Staff",
     imageSlug: "Debora",
   },
 ];

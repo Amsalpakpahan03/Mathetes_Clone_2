@@ -1,6 +1,3 @@
-// src/data/AboutData.js
-
-// PERBAIKAN: Persingkat slug menjadi nama dasarnya saja.
 const testImageSlug = "about-section-image";
 const SchoolImageSlug = "Staf-all";
 const VisionImageSlug = "Mathetes-student";
