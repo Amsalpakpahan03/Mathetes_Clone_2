@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaFacebookF, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import {
+  FaWhatsapp,
+  FaMapMarkerAlt,
+  FaEnvelope,
+} from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
@@ -13,19 +16,6 @@ const Footer = () => {
     { name: "About Us", href: "/aboutus" },
     { name: "Courses", href: "/course" },
     { name: "Contact Us", href: "/contact" },
-  ];
-
-  const socialLinks = [
-    { icon: <FaFacebookF />, href: "#", label: "Facebook" },
-    { icon: <FaXTwitter />, href: "#", label: "X (Twitter)" },
-    {
-      icon: <AiFillInstagram />,
-      href: "https://www.instagram.com/mathetes_school/",
-      label: "Instagram",
-      target: "_blank",
-    },
-    { icon: <FaLinkedinIn />, href: "#", label: "LinkedIn" },
-    { icon: <FaPinterestP />, href: "#", label: "Pinterest" },
   ];
 
   return (
@@ -117,31 +107,12 @@ const Footer = () => {
           </motion.div>
         </div>
 
-        {/* Ikon Sosial Media */}
-        <div className="flex justify-center md:justify-end mb-6 md:mb-8">
-          <div className="flex items-center space-x-4 md:space-x-5">
-            {socialLinks.map((social, index) => (
-              <a
-                key={index}
-                href={social.href}
-                aria-label={social.label}
-                className="text-[#CEAF80] text-xl md:text-2xl hover:text-[#CEAF80] hover:scale-110 transition-all duration-300"
-                target={social.target}
-                rel={
-                  social.target === "_blank" ? "noopener noreferrer" : undefined
-                }
-              >
-                {social.icon}
-              </a>
-            ))}
-          </div>
-        </div>
-
         {/* Garis Pemisah */}
         <hr className="border-t-2 border-[#CEAF80] mb-6 md:mb-10" />
 
         {/* Bagian Bawah */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 md:gap-0">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-10">
+          {/* Blok Logo (Existing) */}
           <div className="flex items-center">
             <img
               src="/images/logo.png"
@@ -155,6 +126,76 @@ const Footer = () => {
               <span className="text-[0.7rem] md:text-sm tracking-[0.2em] md:tracking-[0.3em] text-gray-300 uppercase">
                 CHRISTIAN SCHOOL
               </span>
+            </div>
+          </div>
+
+          {/* Blok Kontak Baru */}
+          <div className="flex flex-col md:flex-row gap-8 md:gap-10 text-sm md:text-base w-full md:w-auto justify-between md:justify-end">
+            
+            {/* Alamat Kami (LINK SUDAH DIGANTI) */}
+            <div className="max-w-xs">
+              <h3 className="font-bold text-lg mb-3 text-[#CEAF80]">
+                Our Address
+              </h3>
+              <a
+                href="https://maps.app.goo.gl/ZM224fNdMW7Lqhbn7" // <-- LINK SUDAH DIGANTI
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-3 hover:text-[#CEAF80] transition-colors group"
+              >
+                <FaMapMarkerAlt className="text-[#CEAF80] text-xl mt-1 flex-shrink-0 group-hover:scale-110" />
+                <p className="opacity-90 leading-relaxed group-hover:opacity-100">
+                  Jl. Surya Timur II X No. 16, Kedoya Utara, Kebon Jeruk,
+                  Jakarta Barat, DKI Jakarta 1152
+                  <br />
+                </p>
+              </a>
+            </div>
+
+            {/* Hubungi Kami */}
+            <div>
+              <h3 className="font-bold text-lg mb-3 text-[#CEAF80]">
+                Call Us
+              </h3>
+              <div className="flex flex-col gap-3">
+                
+                {/* Telepon (WA) */}
+                <a
+                  href="https://wa.me/+6285283464956" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 hover:text-[#CEAF80] transition-colors group"
+                >
+                  <FaWhatsapp className="text-[#CEAF80] text-xl group-hover:scale-110" />
+                  <span className="opacity-90 group-hover:opacity-100">
+                    +62 852 8346 4956 
+                  </span>
+                </a>
+
+                {/* Email */}
+                <a
+                  href="mailto:mail.mathetes@gmail.com" 
+                  className="flex items-center gap-3 hover:text-[#CEAF80] transition-colors group"
+                >
+                  <FaEnvelope className="text-[#CEAF80] text-xl group-hover:scale-110" />
+                  <span className="opacity-90 group-hover:opacity-100">
+                    mail.mathetes@gmail.com
+                  </span>
+                </a>
+
+                {/* Instagram (dari kode Anda sebelumnya) */}
+                <a
+                  href="https://www.instagram.com/mathetes_school/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 hover:text-[#CEAF80] transition-colors group"
+                >
+                  <AiFillInstagram className="text-[#CEAF80] text-xl group-hover:scale-110" />
+                  <span className="opacity-90 group-hover:opacity-100">
+                    @mathetes_school
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
