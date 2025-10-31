@@ -32,7 +32,7 @@ export const successFocusData = {
 };
 
 export const visionData = {
-  title: "Vision we have",
+  title: "Vision",
   description:
     "Mathetes Christian School aims to build Spirit-led empowered disciples through whole-person education to impact the nations.",
   image: {
