@@ -1,7 +1,7 @@
 // src/components/About/AboutHero.jsx
 
 import React from "react";
-import OptimizedImage from "../UI/OptimizedImage.jsx";
+import OptimizedImage from "../ui/OptimizedImage.jsx";
 import { href } from "react-router-dom";
 
 const AboutHero = ({ data }) => {
