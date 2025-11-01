@@ -11,15 +11,15 @@ const cardVariants = {
   },
 };
 
-// Terima 'image' sebagai objek, bukan 'imageUrl'
 const SingleFeatureCard = ({
   icon: Icon,
   title,
   description,
-  image, // <-- Perubahan di sini
+  image,
+  iconImage,
   variant = "full",
 }) => {
-  const isIconOnly = !image; // Logika yang lebih sederhana: jika tidak ada gambar, berarti ini mode ikon
+  const isIconOnly = !image;
   const contentAlignment = isIconOnly
     ? "items-center text-center"
     : "items-start text-left";
@@ -31,9 +31,9 @@ const SingleFeatureCard = ({
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col justify-between w-full h-full transition-all duration-300"
+      className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col justify-between w-full h-auto transition-all duration-300
+                 basis-full md:basis-[47%] lg:basis-[23%]"
     >
-      {/* BAGIAN GAMBAR (Gunakan OptimizedImage) */}
       {!isIconOnly && image && (
         <div className="w-full h-[180px]">
           <OptimizedImage
@@ -44,12 +44,19 @@ const SingleFeatureCard = ({
         </div>
       )}
 
-      {/* BAGIAN KONTEN (Sedikit penyesuaian untuk layout yang lebih konsisten) */}
       <div className={`p-6 flex flex-col flex-grow ${contentAlignment}`}>
-        {Icon && (
+        {(iconImage || Icon) && (
           <div className="flex justify-center mb-4">
-            <div className="bg-blue-100 p-4 rounded-full">
-              <Icon size={28} className="text-blue-600" />
+            <div className="bg-blue-100  rounded-full flex items-center justify-center w-16 h-16">
+              {iconImage ? (
+                <OptimizedImage
+                  slug={iconImage.slug}
+                  alt={iconImage.alt}
+                  className="w-16 h-16 object-cover "
+                />
+              ) : (
+                <Icon size={28} className="text-blue-600" />
+              )}
             </div>
           </div>
         )}

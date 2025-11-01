@@ -60,27 +60,51 @@ export const aboutSectionData = {
 export const featuresData = [
   {
     id: 1,
-    title: "Individualized Education",
+    title: "Spiritual Development",
     description:
-      "Biblically based educational program geared to meet the learning needs of individual children.",
+      "We aim that students experience deep transformation and embrace wisdom and truth as they grow in knowledge and understanding.",
     icon: FaBookOpen,
     image: null,
+    iconImage: {
+      slug: "Icon1",
+      alt: "Spiritual Development Icon",
+    },
   },
   {
     id: 2,
-    title: "Family Oriented",
+    title: "Individualized Learning",
     description:
-      "We believe that a successful education of a child begins with the parent.",
+      "Our Accelerated Christian Education curriculum is differentiated based on students' needs focusing on character development. Whether a student is an advanced learner, learns at an average pace, or learns more slowly, they start at the level suited to their abilities.",
     icon: FaUserTie,
     image: null,
+    iconImage: {
+      slug: "Icon2",
+      alt: "Individualized Learning Icon",
+    },
   },
   {
     id: 3,
-    title: "Academic Achievement",
+    title: "Mastery Learning",
     description:
-      "The A.C.E. program is designed around a new format: that of building skill upon skill.",
+      "Our curriculum ensures mastery of each topic before progressing, offering personalized attention. Students advance at their own pace, free from peer pressure.",
     icon: FaGraduationCap,
     image: null,
+    iconImage: {
+      slug: "Icon3",
+      alt: "Mastery Learning Icon",
+    },
+  },
+  {
+    id: 4,
+    title: "Whole Education",
+    description:
+      "We develop all aspects of a student, including spiritual, intellectual, emotional, social, physical, and ethical growth, aiming to create well-rounded  individuals.",
+    icon: FaGraduationCap,
+    image: null,
+    iconImage: {
+      slug: "Icon4",
+      alt: "Whole Education Icon",
+    },
   },
 ];
 
@@ -138,7 +162,7 @@ export const heroDataCourse = [
     buttonText: "View Courses",
     href: "/course",
     image: {
-      slug: "Computer",
+      slug: "Tiga-orang-hero",
       alt: "Suasana belajar online yang interaktif dan modern",
     },
   },
@@ -204,7 +228,7 @@ export const heroDataHome = [
     buttonText: "Learn Our Story",
     href: "/aboutus",
     image: {
-      slug: "School",
+      slug: "Dua-orang-hero",
       alt: "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
     },
   },
@@ -213,7 +237,7 @@ export const heroDataHome = [
 export const courseOurCurriculum = {
   title: "Educating the Whole Person for Global Impact",
   descriptions: [
-    "At Mathetes Christian School, our curriculum is more than just academic. It is a journey of whole-person education. Guided by our vision to build Spirit-led disciples, we intentionally integrate intellectual alertness with spiritual vitality, physical discipline, social adeptness, and essential life skills. Our courses are designed to transform students in wisdom and truth, empowering them to think critically, lead with integrity, and pursue their unique, God-given passions. We are not just teaching subjects; we are nurturing holistic leaders prepared to impact the nations with love and hope.",
+    "At Mathetes Christian School, our curriculum is more than just academic. It is a journey of whole-person education. Guided by our vision to build Spirit-led disciples, we intentionally integrate intellectual alertness with spiritual vitality, physical discipline, social adeptness, and essential life skills. Our courses are designed to transform students in wisdom and truth, empowering them to think critically, lead with integrity, and pursue their unique, God-given passions. We are not just teaching subjects; we are nurturing holistic leaders prepared to impact all nations with love and hope.",
   ],
   link: "",
   image: {

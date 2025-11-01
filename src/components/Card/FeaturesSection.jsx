@@ -9,7 +9,7 @@ const FeaturesSection = ({ data }) => {
   return (
     <section className="">
       <div className="container mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+        <div className="flex flex-wrap items-stretch justify-center gap-5">
           {data.map((feature) => (
             <SingleFeatureCard
               key={feature.id}
@@ -17,6 +17,7 @@ const FeaturesSection = ({ data }) => {
               description={feature.description}
               icon={feature.icon}
               image={feature.image}
+              iconImage={feature.iconImage}
               variant={feature.variant}
             />
           ))}
