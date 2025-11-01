@@ -228,7 +228,7 @@ export const heroDataHome = [
     buttonText: "Learn Our Story",
     href: "/aboutus",
     image: {
-      slug: "Dua-orang-hero",
+      slug: "foto-grup",
       alt: "Delivering a world-class curriculum designed to equip students with the global skills and perspectives needed for future success.",
     },
   },

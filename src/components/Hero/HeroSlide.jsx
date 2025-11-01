@@ -26,11 +26,19 @@ const HeroSlide = ({ data }) => {
   return (
     <div>
       <section className="absolute inset-0 w-full h-full bg-cover bg-center text-white">
-        <OptimizedImage
+        {/* <OptimizedImage
           slug={image.slug}
           alt={image.alt}
           className="absolute inset-0 w-full h-full object-cover" // Style agar berfungsi seperti background
+        /> */}
+        <OptimizedImage
+          slug={image.slug}
+          alt={image.alt}
+          className={`absolute inset-0 w-full h-full object-cover ${
+            id === 3 ? "object-top" : "object-center"
+          }`}
         />
+
         <div className="absolute inset-0 bg-black/60 z-10"></div>
         <div className="relative z-20 h-full flex flex-col justify-center items-center text-center px-4">
           <motion.div
