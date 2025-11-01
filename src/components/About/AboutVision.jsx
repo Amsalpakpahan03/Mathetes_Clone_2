@@ -17,7 +17,7 @@ const AboutVision = ({ data }) => {
     )
     .replace(
       /impact the nations/gi,
-      "<strong class='text-black font-semibold'>impact the nations</strong>"
+      "<strong class='text-black font-semibold'>impact all nations</strong>"
     );
 
   return (

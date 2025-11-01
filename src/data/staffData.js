@@ -38,7 +38,7 @@ export const staffData = [
   {
     id: 7,
     name: "Juliana Hidayat",
-    title: "Project-based class Teacher",
+    title: "Project-based Class Teacher",
     imageSlug: "staf-Juliana-Hidayat",
   },
   {
